@@ -1,0 +1,188 @@
+Settings:
+  Output files: "bowtie_index_refgen_GRCh38_r90.*.bt2"
+  Line rate: 6 (line is 64 bytes)
+  Lines per side: 1 (side is 64 bytes)
+  Offset rate: 4 (one in 16)
+  FTable chars: 10
+  Strings: unpacked
+  Max bucket size: default
+  Max bucket size, sqrt multiplier: default
+  Max bucket size, len divisor: 4
+  Difference-cover sample period: 1024
+  Endianness: little
+  Actual local endianness: little
+  Sanity checking: disabled
+  Assertions: disabled
+  Random seed: 0
+  Sizeofs: void*:8, int:4, long:8, size_t:8
+Input files DNA, FASTA:
+  /proj/sllstore2017067/project6/Andre/project/ref_genome/GRCh38_r90.all.fa
+Building a SMALL index
+Reading reference sizes
+  Time reading reference sizes: 00:00:21
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:17
+bmax according to bmaxDivN setting: 733719248
+Using parameters --bmax 550289436 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 550289436 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:01:07
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:18
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:34
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 2.93488e+09 (target: 550289435)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 1
+  No samples; assembling all-inclusive block
+  Sorting block of length 2934876993 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:33:47
+Returning block of 2934876994 for bucket 1
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 866423646
+fchr[G]: 1464813986
+fchr[T]: 2065672706
+fchr[$]: 2934876993
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 982499926 bytes to primary EBWT file: bowtie_index_refgen_GRCh38_r90.1.bt2
+Wrote 733719256 bytes to secondary EBWT file: bowtie_index_refgen_GRCh38_r90.2.bt2
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 2934876993
+    bwtLen: 2934876994
+    sz: 733719249
+    bwtSz: 733719249
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 183429813
+    offsSz: 733719252
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 15285818
+    numLines: 15285818
+    ebwtTotLen: 978292352
+    ebwtTotSz: 978292352
+    color: 0
+    reverse: 0
+Total time for call to driver() for forward index: 00:44:37
+Reading reference sizes
+  Time reading reference sizes: 00:00:18
+Calculating joined length
+Writing header
+Reserving space for joined string
+Joining reference sequences
+  Time to join reference sequences: 00:00:18
+  Time to reverse reference sequence: 00:00:02
+bmax according to bmaxDivN setting: 733719248
+Using parameters --bmax 550289436 --dcv 1024
+  Doing ahead-of-time memory usage test
+  Passed!  Constructing with these parameters: --bmax 550289436 --dcv 1024
+Constructing suffix-array element generator
+Building DifferenceCoverSample
+  Building sPrime
+  Building sPrimeOrder
+  V-Sorting samples
+  V-Sorting samples time: 00:01:07
+  Allocating rank array
+  Ranking v-sort output
+  Ranking v-sort output time: 00:00:18
+  Invoking Larsson-Sadakane on ranks
+  Invoking Larsson-Sadakane on ranks time: 00:00:34
+  Sanity-checking and returning
+Building samples
+Reserving space for 12 sample suffixes
+Generating random suffixes
+QSorting 12 sample offsets, eliminating duplicates
+QSorting sample offsets, eliminating duplicates time: 00:00:00
+Multikey QSorting 12 samples
+  (Using difference cover)
+  Multikey QSorting samples time: 00:00:00
+Calculating bucket sizes
+Splitting and merging
+  Splitting and merging time: 00:00:00
+Avg bucket size: 2.93488e+09 (target: 550289435)
+Converting suffix-array elements to index image
+Allocating ftab, absorbFtab
+Entering Ebwt loop
+Getting block 1 of 1
+  No samples; assembling all-inclusive block
+  Sorting block of length 2934876993 for bucket 1
+  (Using difference cover)
+  Sorting block time: 00:34:06
+Returning block of 2934876994 for bucket 1
+Exited Ebwt loop
+fchr[A]: 0
+fchr[C]: 866423646
+fchr[G]: 1464813986
+fchr[T]: 2065672706
+fchr[$]: 2934876993
+Exiting Ebwt::buildToDisk()
+Returning from initFromVector
+Wrote 982499926 bytes to primary EBWT file: bowtie_index_refgen_GRCh38_r90.rev.1.bt2
+Wrote 733719256 bytes to secondary EBWT file: bowtie_index_refgen_GRCh38_r90.rev.2.bt2
+Re-opening _in1 and _in2 as input streams
+Returning from Ebwt constructor
+Headers:
+    len: 2934876993
+    bwtLen: 2934876994
+    sz: 733719249
+    bwtSz: 733719249
+    lineRate: 6
+    offRate: 4
+    offMask: 0xfffffff0
+    ftabChars: 10
+    eftabLen: 20
+    eftabSz: 80
+    ftabLen: 1048577
+    ftabSz: 4194308
+    offsLen: 183429813
+    offsSz: 733719252
+    lineSz: 64
+    sideSz: 64
+    sideBwtSz: 48
+    sideBwtLen: 192
+    numSides: 15285818
+    numLines: 15285818
+    ebwtTotLen: 978292352
+    ebwtTotSz: 978292352
+    color: 0
+    reverse: 1
+Total time for backward call to driver() for mirror index: 00:44:43
+/var/spool/slurmd/job1697672/slurm_script: line 23: fg: no job control
+(ERR): "control" does not exist or is not a Bowtie 2 index
+Exiting now ...

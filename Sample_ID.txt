@@ -1,0 +1,10 @@
+# This file converts the real names of the sample files into a more readable ones:
+# Samples available:
+control.fq	c379_MCF_input_rep3_CRI01.fq
+sample1.fq	jc573_MCF7_ERa_LE_CRI01.fq
+sample2.fq	jc846_MCF7_ERa_siLuc_E2_CRI01.fq
+
+# Number of lines
+# control.fq 112906764
+# sample1.fq 139166732
+# sample2.fq 129824724

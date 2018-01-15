@@ -1,0 +1,118 @@
+INFO  @ Wed, 27 Dec 2017 13:01:45: 
+# Command line: callpeak -t merged_mapped_bowtie2.sorted.duplicates_filt.bam -c control_mapped_bowtie2.sorted.duplicates_filtered.bam -f BAM -g hs -q 0.01 --outdir /proj/sllstore2017067/project6/Javi/data/MACS2 -n sample1_MACS2 -B --trackline --SPMR
+# ARGUMENTS LIST:
+# name = sample1_MACS2
+# format = BAM
+# ChIP-seq file = ['merged_mapped_bowtie2.sorted.duplicates_filt.bam']
+# control file = ['control_mapped_bowtie2.sorted.duplicates_filtered.bam']
+# effective genome size = 2.70e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 1.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# MACS will save fragment pileup signal per million reads
+ 
+INFO  @ Wed, 27 Dec 2017 13:01:45: #1 read tag files... 
+INFO  @ Wed, 27 Dec 2017 13:01:45: #1 read treatment tags... 
+INFO  @ Wed, 27 Dec 2017 13:01:56:  1000000 
+INFO  @ Wed, 27 Dec 2017 13:01:58:  2000000 
+INFO  @ Wed, 27 Dec 2017 13:02:01:  3000000 
+INFO  @ Wed, 27 Dec 2017 13:02:03:  4000000 
+INFO  @ Wed, 27 Dec 2017 13:02:06:  5000000 
+INFO  @ Wed, 27 Dec 2017 13:02:08:  6000000 
+INFO  @ Wed, 27 Dec 2017 13:02:11:  7000000 
+INFO  @ Wed, 27 Dec 2017 13:02:13:  8000000 
+INFO  @ Wed, 27 Dec 2017 13:02:16:  9000000 
+INFO  @ Wed, 27 Dec 2017 13:02:18:  10000000 
+INFO  @ Wed, 27 Dec 2017 13:02:21:  11000000 
+INFO  @ Wed, 27 Dec 2017 13:02:24:  12000000 
+INFO  @ Wed, 27 Dec 2017 13:02:26:  13000000 
+INFO  @ Wed, 27 Dec 2017 13:02:29:  14000000 
+INFO  @ Wed, 27 Dec 2017 13:02:31:  15000000 
+INFO  @ Wed, 27 Dec 2017 13:02:34:  16000000 
+INFO  @ Wed, 27 Dec 2017 13:02:36:  17000000 
+INFO  @ Wed, 27 Dec 2017 13:02:39:  18000000 
+INFO  @ Wed, 27 Dec 2017 13:02:41:  19000000 
+INFO  @ Wed, 27 Dec 2017 13:02:44:  20000000 
+INFO  @ Wed, 27 Dec 2017 13:02:46:  21000000 
+INFO  @ Wed, 27 Dec 2017 13:02:49:  22000000 
+INFO  @ Wed, 27 Dec 2017 13:02:51:  23000000 
+INFO  @ Wed, 27 Dec 2017 13:02:54:  24000000 
+INFO  @ Wed, 27 Dec 2017 13:02:57:  25000000 
+INFO  @ Wed, 27 Dec 2017 13:02:59:  26000000 
+INFO  @ Wed, 27 Dec 2017 13:03:02:  27000000 
+INFO  @ Wed, 27 Dec 2017 13:03:04:  28000000 
+INFO  @ Wed, 27 Dec 2017 13:03:07:  29000000 
+INFO  @ Wed, 27 Dec 2017 13:03:09:  30000000 
+INFO  @ Wed, 27 Dec 2017 13:03:12:  31000000 
+INFO  @ Wed, 27 Dec 2017 13:03:14:  32000000 
+INFO  @ Wed, 27 Dec 2017 13:03:17:  33000000 
+INFO  @ Wed, 27 Dec 2017 13:03:19:  34000000 
+INFO  @ Wed, 27 Dec 2017 13:03:22:  35000000 
+INFO  @ Wed, 27 Dec 2017 13:03:25:  36000000 
+INFO  @ Wed, 27 Dec 2017 13:03:27:  37000000 
+INFO  @ Wed, 27 Dec 2017 13:03:30:  38000000 
+INFO  @ Wed, 27 Dec 2017 13:03:32:  39000000 
+INFO  @ Wed, 27 Dec 2017 13:03:35: #1.2 read input tags... 
+INFO  @ Wed, 27 Dec 2017 13:03:38:  1000000 
+INFO  @ Wed, 27 Dec 2017 13:03:41:  2000000 
+INFO  @ Wed, 27 Dec 2017 13:03:44:  3000000 
+INFO  @ Wed, 27 Dec 2017 13:03:47:  4000000 
+INFO  @ Wed, 27 Dec 2017 13:03:50:  5000000 
+INFO  @ Wed, 27 Dec 2017 13:03:53:  6000000 
+INFO  @ Wed, 27 Dec 2017 13:03:56:  7000000 
+INFO  @ Wed, 27 Dec 2017 13:03:58:  8000000 
+INFO  @ Wed, 27 Dec 2017 13:04:01:  9000000 
+INFO  @ Wed, 27 Dec 2017 13:04:04:  10000000 
+INFO  @ Wed, 27 Dec 2017 13:04:07:  11000000 
+INFO  @ Wed, 27 Dec 2017 13:04:10:  12000000 
+INFO  @ Wed, 27 Dec 2017 13:04:13:  13000000 
+INFO  @ Wed, 27 Dec 2017 13:04:16:  14000000 
+INFO  @ Wed, 27 Dec 2017 13:04:19:  15000000 
+INFO  @ Wed, 27 Dec 2017 13:04:22:  16000000 
+INFO  @ Wed, 27 Dec 2017 13:04:25:  17000000 
+INFO  @ Wed, 27 Dec 2017 13:04:28:  18000000 
+INFO  @ Wed, 27 Dec 2017 13:04:31:  19000000 
+INFO  @ Wed, 27 Dec 2017 13:04:34:  20000000 
+INFO  @ Wed, 27 Dec 2017 13:04:36:  21000000 
+INFO  @ Wed, 27 Dec 2017 13:04:39:  22000000 
+INFO  @ Wed, 27 Dec 2017 13:04:42:  23000000 
+INFO  @ Wed, 27 Dec 2017 13:04:45:  24000000 
+INFO  @ Wed, 27 Dec 2017 13:04:48:  25000000 
+INFO  @ Wed, 27 Dec 2017 13:04:51:  26000000 
+INFO  @ Wed, 27 Dec 2017 13:04:54:  27000000 
+INFO  @ Wed, 27 Dec 2017 13:04:56: #1 tag size is determined as 36 bps 
+INFO  @ Wed, 27 Dec 2017 13:04:56: #1 tag size = 36 
+INFO  @ Wed, 27 Dec 2017 13:04:56: #1  total tags in treatment: 39722487 
+INFO  @ Wed, 27 Dec 2017 13:04:56: #1 user defined the maximum tags... 
+INFO  @ Wed, 27 Dec 2017 13:04:56: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Wed, 27 Dec 2017 13:05:01: #1  tags after filtering in treatment: 38984978 
+INFO  @ Wed, 27 Dec 2017 13:05:01: #1  Redundant rate of treatment: 0.02 
+INFO  @ Wed, 27 Dec 2017 13:05:01: #1  total tags in control: 27523805 
+INFO  @ Wed, 27 Dec 2017 13:05:01: #1 user defined the maximum tags... 
+INFO  @ Wed, 27 Dec 2017 13:05:01: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Wed, 27 Dec 2017 13:05:04: #1  tags after filtering in control: 27523510 
+INFO  @ Wed, 27 Dec 2017 13:05:04: #1  Redundant rate of control: 0.00 
+INFO  @ Wed, 27 Dec 2017 13:05:04: #1 finished! 
+INFO  @ Wed, 27 Dec 2017 13:05:04: #2 Build Peak Model... 
+INFO  @ Wed, 27 Dec 2017 13:05:12: #2 number of paired peaks: 36194 
+INFO  @ Wed, 27 Dec 2017 13:05:12: start model_add_line... 
+INFO  @ Wed, 27 Dec 2017 13:05:29: start X-correlation... 
+INFO  @ Wed, 27 Dec 2017 13:05:29: end of X-cor 
+INFO  @ Wed, 27 Dec 2017 13:05:29: #2 finished! 
+INFO  @ Wed, 27 Dec 2017 13:05:29: #2 predicted fragment length is 113 bps 
+INFO  @ Wed, 27 Dec 2017 13:05:29: #2 alternative fragment length(s) may be 113 bps 
+INFO  @ Wed, 27 Dec 2017 13:05:29: #2.2 Generate R script for model : /proj/sllstore2017067/project6/Javi/data/MACS2/sample1_MACS2_model.r 
+INFO  @ Wed, 27 Dec 2017 13:05:29: #3 Call peaks... 
+INFO  @ Wed, 27 Dec 2017 13:05:29: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Wed, 27 Dec 2017 13:10:15: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Wed, 27 Dec 2017 13:10:15: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... sample1_MACS2_treat_pileup.bdg 
+INFO  @ Wed, 27 Dec 2017 13:10:15: #3   Write bedGraph files for control lambda (after scaling if necessary)... sample1_MACS2_control_lambda.bdg 
+INFO  @ Wed, 27 Dec 2017 13:10:15: #3   --SPMR is requested, so pileup will be normalized by sequencing depth in million reads. 
+INFO  @ Wed, 27 Dec 2017 13:10:15: #3 Call peaks for each chromosome... 
+INFO  @ Wed, 27 Dec 2017 13:30:03: #4 Write output xls file... /proj/sllstore2017067/project6/Javi/data/MACS2/sample1_MACS2_peaks.xls 
+INFO  @ Wed, 27 Dec 2017 13:30:03: #4 Write peak in narrowPeak format file... /proj/sllstore2017067/project6/Javi/data/MACS2/sample1_MACS2_peaks.narrowPeak 
+INFO  @ Wed, 27 Dec 2017 13:30:04: #4 Write summits bed file... /proj/sllstore2017067/project6/Javi/data/MACS2/sample1_MACS2_summits.bed 
+INFO  @ Wed, 27 Dec 2017 13:30:04: Done! 

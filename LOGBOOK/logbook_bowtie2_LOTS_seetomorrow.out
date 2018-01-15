@@ -1,0 +1,10 @@
+[bam_sort_core] merging from 15 files...
+[bam_sort_core] merging from 14 files...
+[bam_rmdupse_core] 7205552 / 33697314 = 0.2138 in library '	'
+[bam_rmdupse_core] 17565393 / 30796118 = 0.5704 in library '	'
+[E::fai_build_core] Different line length in sequence '(null)'
+/var/spool/slurmd/job1698802/slurm_script: line 65: bcftools: command not found
+/var/spool/slurmd/job1698802/slurm_script: line 66: bcftools: command not found
+[E::fai_build_core] Different line length in sequence '(null)'
+/var/spool/slurmd/job1698802/slurm_script: line 67: bcftools: command not found
+[E::fai_build_core] Different line length in sequence '(null)'

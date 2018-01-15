@@ -1,0 +1,12 @@
+PASS	Basic Statistics	jc379_MCF_input_rep3_CRI01.fq
+PASS	Per base sequence quality	jc379_MCF_input_rep3_CRI01.fq
+PASS	Per tile sequence quality	jc379_MCF_input_rep3_CRI01.fq
+PASS	Per sequence quality scores	jc379_MCF_input_rep3_CRI01.fq
+WARN	Per base sequence content	jc379_MCF_input_rep3_CRI01.fq
+PASS	Per sequence GC content	jc379_MCF_input_rep3_CRI01.fq
+PASS	Per base N content	jc379_MCF_input_rep3_CRI01.fq
+PASS	Sequence Length Distribution	jc379_MCF_input_rep3_CRI01.fq
+PASS	Sequence Duplication Levels	jc379_MCF_input_rep3_CRI01.fq
+PASS	Overrepresented sequences	jc379_MCF_input_rep3_CRI01.fq
+PASS	Adapter Content	jc379_MCF_input_rep3_CRI01.fq
+FAIL	Kmer Content	jc379_MCF_input_rep3_CRI01.fq
