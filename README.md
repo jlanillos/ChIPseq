@@ -10,4 +10,4 @@ Content of this repo:
 - FastQC: fastQC results of my specific samples before trimming
     
 Data and results is not public yet in this project.
-For more info about the tools used and the source of code, please read the Wiki of this project.
+For more info about the tools used and the source of code, please READ THE WIKI of this project.
